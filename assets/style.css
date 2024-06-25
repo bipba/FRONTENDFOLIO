@@ -48,6 +48,7 @@ table {
 }
 /** end reset css**/
 body {
+	background-color: rgb(244, 243, 237);
 	max-width: 1140px;
 	margin:auto;
 	font-family: 'Work Sans' ;
@@ -119,7 +120,10 @@ nav ul li a {
     text-decoration: none;
 	color: black;
 }
-
+nav ul li:hover{
+font-weight: 900;
+font-size: 1.3em;
+}
 li:hover {
 	color: #B1663C;
 }
@@ -173,7 +177,8 @@ li:hover {
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 }
-.gallery img, figure img {
+
+.gallery img, .gallery figure img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -215,7 +220,7 @@ margin: auto;
 .filters button{
 	margin-left:20px ;
 	color: #1D6154;
-	background-color: #FFFFFF;
+	background-color: rgb(244, 243, 237);
 	border: #1D6154 1px solid;
 	width: auto;
 	font-size: medium;
@@ -227,7 +232,7 @@ margin: auto;
 	color: white;
 	background-color:#1D6154; 
   }
-  
+
 input[type="submit"], #contact button{
 	font-family: 'Syne';
 	font-weight: 700;

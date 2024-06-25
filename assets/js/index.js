@@ -96,7 +96,7 @@ async function filterCategories() {
           createWork(work);
         });
       } else {
-        displayWorks();// rappel de la function pour l'affichage de tous les works
+       displayWorks();// rappel de la function pour l'affichage de tous les works
       }
     });
   });
